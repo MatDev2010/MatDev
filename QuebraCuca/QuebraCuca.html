@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quebra Cuca do Mat</title>
+
+    <link rel="stylesheet" href="QuebraCuca.css">
+</head>
+
+<body>
+    <!-- <button onclick="myFunction1()">Sort Alphabetically</button>
+    <button onclick="myFunction2()">Sort Numerically</button> -->
+
+    <!-- <p id="demo"></p> -->
+    <input type="button" value="Click para Iniciar" id="botaoInicio" onclick="iniciar()"> </input>
+    <table>
+        <caption>Quebra Cuca</caption>
+        
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="a1" onclick="moveNumber('a1')"></td>
+                <td id="a2" onclick="moveNumber('a2')"></td>
+                <td id="a3" onclick="moveNumber('a3')"></td>
+            </tr>
+            <tr>
+                <td id="a4" onclick="moveNumber('a4')"></td>
+                <td id="a5" onclick="moveNumber('a5')"></td>
+                <td id="a6" onclick="moveNumber('a6')"></td>
+            </tr>
+            <tr>
+                <td id="a7" onclick="moveNumber('a7')"></td>
+                <td id="a8" onclick="moveNumber('a8')"></td>
+                <td id="a9" onclick="moveNumber('a9')"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td id="Contador"></td>
+                <td id="Tempor" colspan="2"></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p id="msg"></p>
+
+    <footer>Todos os direitos reservados </footer>
+    
+    <script src="QuebraCuca.js">
+    </script>
+
+</body>
+
+</html>
