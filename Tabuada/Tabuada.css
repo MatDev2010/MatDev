@@ -3,15 +3,16 @@
 * {
     font-family: 'Shizuru', cursive;
 }
-input#botaoInicio {
-    margin-left: 500px;
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: 30px;
-}
+
 body {
     margin-top: 50px;
     background-color: rgb(119, 231, 226);
+}
+div {
+    margin: auto;
+    vertical-align: auto;
+    padding: 10px;
+    font-size: 50px;
 }
 caption {
     border: 1px solid black;

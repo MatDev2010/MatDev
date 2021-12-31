@@ -5,13 +5,12 @@ const points = [1, 2, 3, 4, 5, 6, 7, 8, 0].sort(function (a, b) { return 0.5 - M
 // document.getElementById("demo").innerHTML = points
 
 function iniciar() {
-    let num = Number(document.getElementById("botaoInicio"))
-    console.log(num, typeof num)
-    montaTabuada(num)
+    let num = Number(document.getElementById("botaoInicio").value)
+    if (num < 1 || num > 10) return
+    else montaTabuada(num)
 }
 
 function montaTabuada(num) {
-    
     document.getElementById("a1").innerHTML = num
     document.getElementById("b1").innerHTML = num
     document.getElementById("c1").innerHTML = num
