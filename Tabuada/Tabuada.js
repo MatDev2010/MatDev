@@ -36,6 +36,4 @@ function montaTabuada(num) {
     document.getElementById("h5").innerHTML = num * 8
     document.getElementById("i5").innerHTML = num * 9
     document.getElementById("j5").innerHTML = num * 10
-
-
 }
