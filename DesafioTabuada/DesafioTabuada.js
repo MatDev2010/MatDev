@@ -52,11 +52,9 @@ function checkDesafio() {
 
     if  (num == resul[0] * resul[1]) {
         pontos++
-        console.log('acertou!', pontos)
         iniciar()
     } else {
         pontos--
-        console.log('errou!', pontos)
         iniciar()
     }
 }
