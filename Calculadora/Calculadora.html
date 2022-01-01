@@ -5,100 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabuada do Mat</title>
+    <title>Calculadora do Mat</title>
 
-    <link rel="stylesheet" href="Tabuada.css">
+    <link rel="stylesheet" href="Calculadora.css">
 </head>
 
+
 <body>
-    
-
-        <input type="number" placeholder="Digite o número de 1 a 10" id="botaoInicio" onchange="iniciar()" class="noscroll"> </input>
-
-    
     <table>
-        <caption>Tabuada</caption>
-        
-        <thead>
-        </thead>
+        <caption id="calc">Conta</caption>
+        <footer>Calculadora</footer>
         <tbody class="bodyT">
             <tr>
-                <td id="a1"></td>
-                <td>X</td>
-                <td>1</td>
-                <td>=</td>
-                <td id="a5"></td>
+                <td id="tecla1" onclick="clique('tecla1')">1</td>
+                <td id="tecla2" onclick="clique('tecla2')">2</td>
+                <td id="tecla3" onclick="clique('tecla3')">3</td>
+                <td onclick="cont('vezes')">X</td>
+                <td onclick='reset()'>//</td>
             </tr>
             <tr>
-                <td id="b1"></td>
-                <td>X</td>
-                <td>2</td>
-                <td>=</td>
-                <td id="b5"></td>
+                <td id="tecla4" onclick="clique('tecla4')">4</td>
+                <td id="tecla5" onclick="clique('tecla5')">5</td>
+                <td id="tecla6" onclick="clique('tecla6')">6</td>
+                <td onclick="cont('subtracao')">-</td>
+                <td onclick="cont('adicao')">+</td>
             </tr>
             <tr>
-                <td id="c1"></td>
-                <td>X</td>
-                <td>3</td>
-                <td>=</td>
-                <td id="c5"></td>
-            </tr>
-            <tr>
-                <td id="d1"></td>
-                <td>X</td>
-                <td>4</td>
-                <td>=</td>
-                <td id="d5"></td>
-            </tr>
-            <tr>
-                <td id="e1"></td>
-                <td>X</td>
-                <td>5</td>
-                <td>=</td>
-                <td id="e5"></td>
-            </tr>
-            <tr>
-                <td id="f1"></td>
-                <td>X</td>
-                <td>6</td>
-                <td>=</td>
-                <td id="f5"></td>
-            </tr>
-            <tr>
-                <td id="g1"></td>
-                <td>X</td>
-                <td>7</td>
-                <td>=</td>
-                <td id="g5"></td>
-            </tr>
-            <tr>
-                <td id="h1"></td>
-                <td>X</td>
-                <td>8</td>
-                <td>=</td>
-                <td id="h5"></td>
-            </tr>
-            <tr>
-                <td id="i1"></td>
-                <td>X</td>
-                <td>9</td>
-                <td>=</td>
-                <td id="i5"></td>
-            </tr>
-            <tr>
-                <td id="j1"></td>
-                <td>X</td>
-                <td>10</td>
-                <td>=</td>
-                <td id="j5"></td>
+                <td id="tecla7" onclick="clique('tecla7')">7</td>
+                <td id="tecla8" onclick="clique('tecla8')">8</td>
+                <td id="tecla9" onclick="clique('tecla9')">9</td>
+                <td onclick="cont('divisao')">÷</td>
+                <td onclick="cont('igual')">=</td>
             </tr>
         </tbody>
     </table>
     <p id="msg"></p>
-
-    <footer>Todos os direitos reservados </footer>
     
-    <script src="Tabuada.js">
+    <script src="Calculadora.js">
     </script>
 
 </body>

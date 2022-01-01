@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');  
 
 * {
-    font-family: 'Shizuru', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 body {
     padding: 50px;
     background-color: rgb(119, 231, 226);
     margin: auto;
-    width: 500px;
+    width: 575px;
 }
-input[type=number]::-webkit-inner-spin-button { 
-  -webkit-appearance: none; 
-}
-input#botaoInicio {
+
+body#td {
+    padding: 10px;
     font-size: 30px;
-    width: 492px;
+    width: 552px;
 }
+
 caption {
     border: 1px solid black;
     font-size: 50px;
@@ -30,7 +30,7 @@ table {
 td {
     font-size: 30px;
     width: 200px;
-    height: 40px;
+    height: 160px;
     border: 1px solid black;
     text-align: center;
 }
@@ -44,5 +44,10 @@ p#msg {
     font-size: 50px;
 }
 footer {
+    border: 1px solid black;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgreen;
     text-align: center;
 }
