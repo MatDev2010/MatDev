@@ -6,8 +6,12 @@ const points = [1, 2, 3, 4, 5, 6, 7, 8, 0].sort(function (a, b) { return 0.5 - M
 
 function iniciar() {
     let num = Number(document.getElementById("botaoInicio").value)
-    if (num < 1 || num > 10) return
-    else montaTabuada(num)
+    if (num < 1 || num > 10) {
+        document.getElementById("botaoInicio").value = ""
+        return
+    }
+    else
+        montaTabuada(num)
 }
 
 function montaTabuada(num) {

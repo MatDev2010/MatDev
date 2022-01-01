@@ -3,16 +3,18 @@
 * {
     font-family: 'Shizuru', cursive;
 }
-
 body {
-    margin-top: 50px;
+    padding: 50px;
     background-color: rgb(119, 231, 226);
-}
-div {
     margin: auto;
-    vertical-align: auto;
-    padding: 10px;
-    font-size: 50px;
+    width: 500px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none; 
+}
+input#botaoInicio {
+    font-size: 30px;
+    width: 492px;
 }
 caption {
     border: 1px solid black;
@@ -27,7 +29,7 @@ table {
 }
 td {
     font-size: 30px;
-    width: 100px;
+    width: 200px;
     height: 40px;
     border: 1px solid black;
     text-align: center;
