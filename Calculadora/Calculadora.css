@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+* {
+    font-family: 'Shizuru', cursive;
+}
+body {
+    padding: 50px;
+    background-color: rgb(119, 231, 226);
+    margin: auto;
+    width: 500px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none; 
+}
+input#botaoInicio {
+    font-size: 30px;
+    width: 492px;
+}
+caption {
+    border: 1px solid black;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgreen;
+}
+table {
+    background-color: lightcoral;
+    margin: auto;
+}
+td {
+    font-size: 30px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+}
+td:hover {
+    box-shadow:  0px 0px 10px 1px rgb(235, 35, 35);
+    background-color: lightsalmon;
+}
+
+p#msg {
+    text-align: center;
+    font-size: 50px;
+}
+footer {
+    text-align: center;
+}
