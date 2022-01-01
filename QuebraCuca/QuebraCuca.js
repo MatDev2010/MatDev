@@ -18,16 +18,6 @@ function montaQuebraCuca() {
     document.getElementById("a9").innerHTML = points[8] == 0 ? ' ' : points[8]
 }
 
-function myFunction1() {
-    points.sort();
-    document.getElementById("demo").innerHTML = points;
-}
-
-function myFunction2() {
-    points.sort(function (a, b) { return a - b });
-    document.getElementById("demo").innerHTML = points;
-}
-
 function checkTerminou() {
     
     let cheCkfinal = points.toString()
