@@ -15,9 +15,15 @@
             font-size: 40px;
             font: caption;
             text-align: center;
-            padding: 30px;
+            padding: 100px;
             background-color: rgb(0, 0, 0);
+            
         }
+
+        * {
+            margin: 25px;
+        }
+
         h1 {
             font-size: 15px;
             font-family: 'Roboto Mono', monospace;
@@ -39,12 +45,9 @@
 </head>
 
 <body>
-    <br><br><br><br><br><br><br>
     <input type="text" placeholder="Digite a resposta aqui" id="resposta" onchange="resposta()" class="noscroll"> </input>
-    <br><br><br><br><br><br><br>
-    <div id="textoresposta">teste</div>
+    <div id="textoresposta"></div>
     <img src="Ilusao.jpg" alt="Não foi possível carregar a imagem" style="border-radius: 1%;">
-    <br><br><br><br><br><br><br>
     <h1>Dica: Nome da Imagem</h1>
     <script src="Fase.js"></script>
 </body>

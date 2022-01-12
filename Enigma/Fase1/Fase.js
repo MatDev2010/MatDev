@@ -1,8 +1,10 @@
 function resposta() {
     let resposta = document.getElementById("resposta").value
-    console.log(resposta)
     if (resposta == "Ilusao") {
-        document.getElementById("resposta").value = "Correto"
+        document.getElementById("textoresposta").value = "Correto!"
+        setInterval(() =>
+        window.location.replace("http://127.0.0.1:5500/Enigma/Fase2/index.html")
+        , 2000)
     } else {
         document.getElementById("textoresposta").innerHTML = "Errado"
     }
