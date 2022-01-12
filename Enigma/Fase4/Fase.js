@@ -1,9 +1,6 @@
 function resposta() {
-    let resposta = Number(document.getElementById("resposta").value)
-    if (resposta == 1789) {
-        setInterval(() =>
-        window.open('../Fase3/indexFase3.html')
-        , 2000)
+    let resposta = document.getElementById("resposta").value
+    if (resposta == "amFuZWlybw==") {
         document.getElementById("res").innerHTML = "Correto, redirecionando-o para a próxima fase..."
     }
     else {

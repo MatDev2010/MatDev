@@ -1,8 +1,10 @@
 function resposta() {
-    let resposta = Number(document.getElementById("resposta").value)
-    if (resposta == 1789) {
+    let resposta = document.getElementById("resposta").value
+    let full = resposta.toUpperCase()
+    console.log(full)
+    if (full == "BATATAFRITA") {
         setInterval(() =>
-        window.open('../Fase3/indexFase3.html')
+        window.open('../Fase4/indexFase4.html')
         , 2000)
         document.getElementById("res").innerHTML = "Correto, redirecionando-o para a próxima fase..."
     }
