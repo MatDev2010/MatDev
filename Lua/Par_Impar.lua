@@ -5,5 +5,5 @@ local function Num(number)
     end
 end
 
-Boolean = Num(2)
+Boolean = Num(math.random(1,9))
 print(Boolean)
